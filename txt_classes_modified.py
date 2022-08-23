@@ -1,8 +1,15 @@
+## 파일 사용
+# 1. .txt파일이 있는 폴더를 지정
+# 2. 출력 폴더를 지정
+# 3. 프로그램 실행 후
+#   - 원래 있던 클래스 번호 입력
+#   - 수정 하고자하는 클래스 번호 입력
+
 import glob
 import os
 
 # .txt 파일이 있는 폴더를 지정
-file_path = 'test/*.txt'
+file_path = 'boar/*.txt'
 
 # 출력 폴더를 지정
 file_out = 'out/'
@@ -39,4 +46,4 @@ for file in file_list:
     out_path = file_out
 
 
-
+print("Finished processing: ")
